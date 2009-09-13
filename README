@@ -1,6 +1,6 @@
-== Chat ==
+== Pushy ==
 
-This Sinatra application demonstrates the use of long lived HTTP connection to allow the server to push data to the client.
+Demonstrates the use of long lived HTTP connections to allow the server (Sinatra) to *push* data to the client (JQuery).
 
 == Bootstrapping
 
