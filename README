@@ -1,6 +1,13 @@
-== Pushy ==
+Pushy
+=====
+
+== Description
 
 Demonstrates the use of long lived HTTP connections to allow the server (Sinatra) to *push* data to the client (JQuery).
+
+Author: Kris Leech ("moc.tcenokretni@hceel.sirk".reverse)
+Copyright: (c) 2009 Interkonect Services UK Limited
+License: GNU
 
 == Bootstrapping
 
@@ -12,8 +19,14 @@ CREATE TABLE `messages` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=137 DEFAULT CHARSET=utf8;
 
+Using Rackup as the server works but the code is not reloaded even in development mode so use shotgun instead.
+
 ./shotgun
 
+== License
+
+This library is licensed under the GNU General Public License (GPL)
+[http://dev.perl.org/licenses/gpl1.html]
 
 
 
