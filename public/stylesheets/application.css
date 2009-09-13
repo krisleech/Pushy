@@ -1,0 +1,14 @@
+
+  #debug_pannel { width: 200px; overflow: hidden; border: #7D8B8B solid 1px; background-color: #B5CCCD; padding: 5px; margin: 5px; position: fixed; top: 0px; right: 0px; }
+
+  #messages { margin-top: 20px; }
+
+  span.name {}
+  span.body {}
+  span.time { float:right;}
+  .message { padding: 10px; margin-top: 5px; background-color: #C3DADB; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #C3DADB;
+
+	}

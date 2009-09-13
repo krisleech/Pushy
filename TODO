@@ -1,0 +1,10 @@
+Simple design
+sweeper to delete messages older than 1 min (or more if we want new user to grab last x mins of messages)
+convert to json 
+jquery ui (highlight new messages)
+put messages in scroller
+highlight any messages with users name in eg. @kris
+Integration tests (requires real browser to run javascript)
+
+
+

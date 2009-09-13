@@ -1,0 +1,23 @@
+== Chat ==
+
+This Sinatra application demonstrates the use of long lived HTTP connection to allow the server to push data to the client.
+
+== Bootstrapping
+
+CREATE TABLE `messages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `body` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=137 DEFAULT CHARSET=utf8;
+
+./shotgun
+
+
+
+
+
+
+
+
